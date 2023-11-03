@@ -11,14 +11,14 @@ import lombok.Setter;
 @Getter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-@Table
+@Table(name = "categoria")
 public class Categoria {
 
 	@Id
 	@EqualsAndHashCode.Include
 	private Integer id;
-	
+
 	private String nome;
-	
+
 	private Integer categoriaPaiId;
 }
