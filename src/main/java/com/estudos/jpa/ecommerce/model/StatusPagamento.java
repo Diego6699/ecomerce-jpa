@@ -1,5 +1,5 @@
 package com.estudos.jpa.ecommerce.model;
 
-public class NotaFiscal {
+public enum StatusPagamento {
 
 }
