@@ -15,6 +15,7 @@ import lombok.Setter;
 public class PagamentoBoleto {
 
 	@Id
+	@EqualsAndHashCode.Include
 	private Integer id;
 
 	private Integer pedidoId;
