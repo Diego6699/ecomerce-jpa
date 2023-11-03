@@ -1,5 +1,5 @@
 package com.estudos.jpa.ecommerce.model;
 
-public class SexoCliente {
+public enum SexoCliente {
 
 }
